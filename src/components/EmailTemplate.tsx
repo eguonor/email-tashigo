@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Facebook, Instagram, MessageCircle } from "lucide-react";
+import { Facebook, Instagram, WhatsApp } from "lucide-react";
 
 interface EmailTemplateProps {
   recipientName?: string;
@@ -65,7 +65,7 @@ const EmailTemplate: React.FC<EmailTemplateProps> = ({
             className="social-icon bg-brand-primary bg-opacity-20 p-3 rounded-full"
             aria-label="WhatsApp"
           >
-            <MessageCircle className="w-5 h-5 text-brand-yellow" />
+            <WhatsApp className="w-5 h-5 text-brand-yellow" />
           </a>
           <a 
             href="#" 
