@@ -29,10 +29,10 @@ const Index = () => {
       <header className="w-full py-6 px-4 glass border-b border-gray-200 mb-8">
         <div className="max-w-7xl mx-auto flex flex-col items-center">
           <h1 className="text-2xl md:text-3xl font-bold text-brand-black">
-            African Delights Email Template
+            African Market Lithuania Email Template
           </h1>
           <p className="text-gray-600 mt-2 text-center max-w-2xl">
-            A beautiful, responsive email template designed for African Delights Store.
+            A beautiful, responsive email template designed for African Market Lithuania.
             Perfect for welcoming new customers and driving engagement.
           </p>
         </div>
@@ -68,7 +68,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="w-full py-6 bg-brand-black text-white text-center text-sm">
-        <p>© 2023 African Delights. All rights reserved.</p>
+        <p>© 2023 African Market Lithuania. All rights reserved.</p>
       </footer>
     </div>
   );

@@ -10,22 +10,20 @@ const EmailTemplate: React.FC<EmailTemplateProps> = ({
   recipientName = "Customer" 
 }) => {
   return (
-    <div className="max-w-2xl mx-auto overflow-hidden animate-fade-in">
+    <div className="max-w-2xl mx-auto overflow-hidden">
       <div className="bg-brand-black text-white p-8 rounded-t-xl flex flex-col items-center">
         {/* Logo Section */}
-        <div className="w-48 h-48 bg-brand-yellow rounded-lg mb-6 flex items-center justify-center overflow-hidden animate-bounce-subtle">
-          <div className="relative w-full h-full flex items-center justify-center">
-            <img 
-              src="/lovable-uploads/978d307c-3254-43b8-b64c-e606c5756376.png" 
-              alt="African Delights Logo" 
-              className="w-full h-auto p-2"
-            />
-          </div>
+        <div className="w-48 h-48 flex items-center justify-center overflow-hidden mb-6">
+          <img 
+            src="/lovable-uploads/26f1cdfc-1416-4e6f-be20-29b247a966eb.png" 
+            alt="African Market Lithuania Logo" 
+            className="w-full h-auto"
+          />
         </div>
         
         {/* Header */}
-        <h1 className="text-4xl font-bold mt-6 mb-2 text-center animate-slide-up">
-          Welcome to African Delights Store!
+        <h1 className="text-4xl font-bold mt-6 mb-2 text-center">
+          Welcome to African Market Lithuania!
         </h1>
         
         {/* Main Content */}
@@ -54,8 +52,8 @@ const EmailTemplate: React.FC<EmailTemplateProps> = ({
         <div className="text-center mb-6">
           <p>
             If you have any questions, reply to this email or contact us at{" "}
-            <a href="mailto:support@africandelightstore.com" className="text-brand-yellow hover:underline">
-              support@africandelightstore.com
+            <a href="mailto:support@africanmarketlithuania.com" className="text-brand-yellow hover:underline">
+              support@africanmarketlithuania.com
             </a>
           </p>
         </div>
@@ -86,7 +84,7 @@ const EmailTemplate: React.FC<EmailTemplateProps> = ({
         </div>
         
         <div className="text-center text-xs mt-6 text-gray-400">
-          <p>© 2023 African Delights. All rights reserved.</p>
+          <p>© 2023 African Market Lithuania. All rights reserved.</p>
           <p className="mt-1">Vilnius, Lithuania</p>
         </div>
       </div>
